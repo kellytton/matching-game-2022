@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Matching Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>EVERGLOW MATCHING GAME</h1>
+    </header>
+    <section id="game-container">
+
+			<!-- This is where we display the flip and match counters -->
+      <div id="ui-container">
+        <h3>FLIPS: <span id="flip-count">0</span></h3>
+        <h3>MATCHES: <span id="match-count">0</span></h3>
+      </div>
+
+      <!-- restart button -->
+      <div id="button-container">
+        <button class="restart" type="submit" onClick="refreshPage()">RESTART</button>
+      </div>
+
+			<!-- This is where our cards will be rendered -->
+      <div id="card-container">
+      </div>
+
+      <!-- footer -->
+      <footer>
+      	<p class="credit">&copy; 2022 Kelly Ton</p>
+      </footer>
+      
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.1/underscore.js" integrity="sha512-qbJl2/KyecDVJdgAwr0Gzhm5KBmkzdUouG+sKmCWP1Idb144ZnfSmCRReuYXPEHIa4j38TwrR2ySeGoFH5gKzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://small-potatoes.github.io/podium-webdev/tbhqtesting.js"></script>
+    <script src="provided.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
